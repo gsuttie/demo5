@@ -22,7 +22,7 @@ jobs:
 
     - uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.AZURE_CREDENTIALSDemo5 }}
     - uses: whiteducksoftware/azure-arm-action-js@v1
       with:
         resourceGroupName: 'rgdemowebapp'
